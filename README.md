@@ -41,4 +41,4 @@ q=language:swift&sort=stars
 
 ## Resultados Obtidos
 
-<iframe src="https://giphy.com/embed/Uy3KpUfgXYkKykI5rc" width="220" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Uy3KpUfgXYkKykI5rc">via GIPHY</a></p>
+![](https://media.giphy.com/media/Uy3KpUfgXYkKykI5rc/giphy.gif)
