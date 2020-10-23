@@ -12,8 +12,7 @@ Criar um app em Swift para consultar a API do Github e trazer os repositórios c
 
 - Lista de Repositórios ✅
 exemplo de chamada:
-https://api.github.com/search/repositories?
-q=language:swift&sort=stars
+https://api.github.com/search/repositories?q=language:swift&sort=stars
 
 - Exibir nome do repo, quantidade de estrelas, foto e nome do autor ✅
 - Scroll infinito ✅
