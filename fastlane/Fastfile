@@ -1,0 +1,41 @@
+default_platform(:ios)
+
+APP_WORKSPACE = "mytestapp.xcworkspace"
+
+TEST_DEVICES = ["iPhone 11"]
+
+platform :ios do
+  desc "Run iOS unit tests"
+  lane :unit_tests do
+    run_tests(
+        workspace: APP_WORKSPACE,
+        devices: TEST_DEVICES,
+        derived_data_path: "../build",
+        build_for_testing: true
+    )
+  end
+
+  desc "Increment major version and push to git"
+  lane :increment_major_version do
+    increment_version_number(
+      bump_type: "major"
+    )
+    commit_version_bump
+  end
+
+  desc "Increment minor version and push to git"
+  lane :increment_minor_version do
+    increment_version_number(
+      bump_type: "minor"
+    )
+    commit_version_bump
+  end
+
+  desc "Increment patch version and push to git"
+  lane :increment_patch_version do
+    increment_version_number(
+      bump_type: "patch"
+    )
+    commit_version_bump
+  end
+end

@@ -1,0 +1,17 @@
+name: CI
+
+on: 
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: macOS-latest
+    
+    steps:
+    - uses: actions/checkout@master
+    - name: CocoaPod Install
+      run: pod install
+    - name: Start xcodebuild test
+      run: xcodebuild clean test -workspace mytestapp.xcworkspace -scheme mytestapp -destination "platform=iOS Simulator,name=iPhone 11 Pro"
