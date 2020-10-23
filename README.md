@@ -1,23 +1,44 @@
 # swift-tableview-test
 
-O Projeto:
+# iOS CHALLENGE
 
-Criar um app em Swift para consultar a API do Github e trazer os
-repositórios com mais estrelas em Swift, que contenha:
+iOS App desenvolvido em SWIFT
 
-1. Lista de Repositórios
+### The Challenge
+
+Criar um app em Swift para consultar a API do Github e trazer os repositórios com mais estrelas em Swift, que contenha:
+
+### Must have
+
+- Lista de Repositórios ✅
 exemplo de chamada:
 https://api.github.com/search/repositories?
 q=language:swift&sort=stars
 
-2. Exibir nome do repo, quantidade de estrelas, foto e nome do
-autor
-3. Scroll infinito
-4. Pull to refresh
-5. Testes unitários
+- Exibir nome do repo, quantidade de estrelas, foto e nome do autor ✅
+- Scroll infinito ✅
+- Pull to refresh ✅
+- Testes unitários ✅
 
-Seria legal se tivesse:
+### Bonus points
 
-1. View Code
-2. Testes usando Quick/Nimble, Snapshot e KIF
-3. Slather configurado e rodando em uma lane no Fastlane
+-   View Code ✅
+-   Testes usando Quick/Nimble ✅
+-   Testes usando Quick/NimbleSnapshot e KIF
+-   Slather configurado e rodando em uma lane no Fastlane 
+
+## System Requirements
+
+-   Sistema Operacional Mac OS X
+-   IDE Xcode Version 11.6 - Download: https://apps.apple.com/pt/app/xcode/id497799835?ls=1&mt=12
+
+## Installation and Setup
+
+-   Clone ou Download este repositório
+-   Run `pod install` para instalar as dependências
+-   Abra o projeto pelo mytestapp.xcworkspace
+-   Rode no simulador ou device real pelo XCode
+
+## Resultados Obtidos
+
+<iframe src="https://giphy.com/embed/Uy3KpUfgXYkKykI5rc" width="220" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Uy3KpUfgXYkKykI5rc">via GIPHY</a></p>
